@@ -1,26 +1,26 @@
 {
-    "accounts":
-    [
+  "accounts": [
+    {
+      "id": 1,
+      "authToken": "eYHA44e97FJiexuxqH9eK4Sr",
+      "chatwootAPIUrl": "https://chatwoot-production-2c23.up.railway.app",
+      "chatwootApiKey": "5QQdgBThUgLPfNGVY5m3mL7z",
+      "whatsappWebGroupParticipantsCustomField": "",
+      "identifierHashKey": "HdPf27kK5jsXN7zmuano9SLq",
+      "whatsappWebInboxes": [
         {
-            "id":1,
-            "authToken":"",
-            "chatwootAPIUrl":"",
-            "chatwootApiKey":"",
-            "whatsappWebGroupParticipantsCustomField":"",
-            "whatsappWebInboxes":[
-                {
-                    "id":10, 
-                    "prefixAgentNameOnMessages":true,
-                    "slackToken":null,
-                    "remotePrivateMessagePrefix":true
-                },
-                {
-                    "id":12, 
-                    "prefixAgentNameOnMessages":true,
-                    "slackToken":null,
-                    "remotePrivateMessagePrefix":"REMOTE: "
-                }
-            ]
+          "id": 10,
+          "prefixAgentNameOnMessages": true,
+          "slackToken": null,
+          "remotePrivateMessagePrefix": true
+        },
+        {
+          "id": 12,
+          "prefixAgentNameOnMessages": true,
+          "slackToken": null,
+          "remotePrivateMessagePrefix": "REMOTE: "
         }
-    ]
+      ]
+    }
+  ]
 }
